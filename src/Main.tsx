@@ -29,7 +29,7 @@ function Main() {
 
 
 const RedirectUser = ({ userId }: { userId: string }) => {
-    const azurePortalUrl = "https://icy-stone-06e0a7603.4.azurestaticapps.net";
+    const azurePortalUrl = "webappmsal2.azurewebsites.net";
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -48,7 +48,7 @@ const RedirectUser = ({ userId }: { userId: string }) => {
 
     const handleRouteData = () => {
         const queryString = new URLSearchParams(dataToSend).toString();
-        const targetURL = `https://icy-stone-06e0a7603.4.azurestaticapps.net?${queryString}`;
+        const targetURL = `webappmsal2.azurewebsites.net?${queryString}`;
 
         window.location.href = targetURL;
     };
