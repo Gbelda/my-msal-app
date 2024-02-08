@@ -17,9 +17,9 @@ export const environment: Record<string, ConfigEntry> = {
     // apiUrl: 'https://localhost:44381/',
     authority: `${loginUrl}${localTenantId}`,
   },
-  'webbappmsal1.azurewebsites.net': {
+  'webappmsal1.azurewebsites.net': {
     clientId: '2fc15079-67d1-44b8-82da-c34bb39b0586',
-    redirectUri: 'https://webbappmsal1.azurewebsites.net/',
+    redirectUri: 'https://webappmsal1.azurewebsites.net/',
     scopes: ['User.Read', 'Mail.Read', 'Calendars.Read', 'Files.Read', 'Sites.Read.All'],
     // apiUrl: 'https://localhost:44381/',
     authority: `${loginUrl}${localTenantId}`,
