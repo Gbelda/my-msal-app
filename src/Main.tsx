@@ -43,7 +43,7 @@ const RedirectUser = ({ userId }: { userId: string }) => {
 
     const dataToSend = {
         param1: 'value1',
-        param2: 'value2'
+        param2: 'value23'
     };
 
     const handleRouteData = () => {
